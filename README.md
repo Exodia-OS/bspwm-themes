@@ -10,7 +10,7 @@ download the theme and save it in the  `~/.config/bspwm/themes/` directory
 do you want to share your theme?
 
 - Fork 
-- add you theme in [**`community`**](community-themes) directory
+- add your theme to the [**`community`**](community-themes) directory
 - Commit/Push your changes with [**`push.sh`**](push.sh) script
     - `push.sh -m "added new theme"`
 - Submit a pull request
