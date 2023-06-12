@@ -9,15 +9,15 @@
 #                                   #
 #####################################
 
-ssid=$(iwgetid -r)
+SSID=$(iwgetid -r)
 
-if [[ "$ssid" == "" ]]; then
-  echo "睊 disconnected"
+if [[ "$SSID" == "" ]];
+  
+    then
+        echo "睊 disconnected"
 
 else
-  echo "直 $ssid"
+
+    echo "直 $SSID"
+
 fi
-
-ssid=$(iwgetid -r)
-printf "󰤨  $ssid " ;;
-

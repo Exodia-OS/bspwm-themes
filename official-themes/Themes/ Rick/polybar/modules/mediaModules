@@ -102,11 +102,13 @@ tail = true
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
-; pipewire-microphone
-[module/pip-mic]
+[module/pulse-mic]
+
 type = custom/script
-exec = ~/.config/bspwm/themes/\ Rick/polybar/scripts/pipewire-microphone.sh
+exec = ~/.config/bspwm/themes/\ Rick/polybar/scripts/pulse-mic
 tail = true
-click-left = ~/.config/bspwm/themes/\ Rick/polybar/scripts/pipewire-microphone.sh --toggle &
+click-left  = ~/.config/bspwm/themes/\ Rick/polybar/scripts/pulse-mic --toggle &
+scroll-up   = ~/.config/bspwm/themes/\ Rick/polybar/scripts/pulse-mic --increase &
+scroll-down = ~/.config/bspwm/themes/\ Rick/polybar/scripts/pulse-mic --decrease &
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
