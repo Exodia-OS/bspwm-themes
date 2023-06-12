@@ -7,6 +7,7 @@
 #                                   #
 #####################################
 
+
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
 [module/battery]
@@ -20,24 +21,23 @@ adapter = ${system.adapter}
 format-charging = <animation-charging><label-charging>
 label-charging = %percentage%%
 format-charging-foreground = ${colors.color4}
-format-charging-background =  #0C1018
+format-charging-background =  #1A2026
 format-charging-font = 4
 
 format-discharging = <ramp-capacity><label-discharging>
 label-discharging = %percentage%%
 format-discharging-foreground = ${colors.foreground}
-format-discharging-background =  #0C1018
+format-discharging-background =  #1A2026
 format-discharging-font = 4
 
 format-full-prefix = " "
-format-full-prefix-foreground = #E70037
-format-full-prefix-background = #0C1018
+format-full-prefix-foreground = ${color.RED}
+format-full-prefix-background = #1A2026
 format-full-prefix-font = 4
 
 
 label-full = %percentage%%
-label-full-foreground = #E70037
-label-full-background = #0C1018
+label-full-background = ${color.BACKGROUND}
 label-full-font = 4
 
 label-discharging-foreground = ${colors.foreground}
@@ -117,10 +117,10 @@ label-unmounted-background = ${color.cyan}
 
 [module/cpuTemp]
 type = custom/script
-exec = ~/.config/bspwm/themes/\ Red\ Jungles/polybar/scripts/heatSensors
+exec = ~/.config/bspwm/themes/Amarena/polybar/scripts/heatSensors
 interval = 1
 click-left = xsensors
-format-foreground = #FA3C82
+format-foreground = ${color.BLUE}
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
@@ -139,7 +139,7 @@ format-prefix-foreground = #d19a66
 
 [module/updates-pacman]
 type = custom/script
-exec = ~/.config/bspwm/themes/\ Red\ Jungles/polybar/scripts/updates-pacman.sh
+exec = ~/.config/bspwm/themes/Amarena/polybar/scripts/updates-pacman.sh
 interval = 180
 format = <label>
 

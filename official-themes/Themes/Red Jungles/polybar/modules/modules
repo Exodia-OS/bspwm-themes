@@ -13,10 +13,12 @@
 type = custom/text
 
 content = " NON"
-content-background = ${color.BACKGROUND}
+content-foreground=  #F8506D
+content-background = #0C1018
+
 content-prefix = 
 content-prefix-font = 2
-content-prefix-foreground = #CD84C8
+content-prefix-foreground =  #F8506D
 content-padding = 0
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
@@ -27,10 +29,10 @@ type = internal/xbacklight
 card = intel_backlight
 
 format = <ramp><label>
-format-background = ${color.BACKGROUND}
+format-background = #0C1018
 label = %percentage%%
 label-font = 4
-label-foreground = #CD84C8
+label-foreground = #F8506D
 
 ramp-0 = " "
 ramp-1 = " "
@@ -43,7 +45,7 @@ ramp-7 = " "
 ramp-8 = " "
 ramp-9 = " "
 ramp-font = 7
-ramp-foreground = ${color.ALTCYAN}
+ramp-foreground = #F8506D
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
@@ -55,10 +57,10 @@ card = ${system.graphics_card}
 enable-scroll = true
 
 format = <ramp><label>
-format-background = ${color.BACKGROUND}
+format-background = #0C1018
 label = %percentage%%
 label-font = 4
-label-foreground = #CD84C8
+label-foreground = #F8506D
 
 ramp-0 = " "
 ramp-1 = " "
@@ -71,7 +73,7 @@ ramp-7 = " "
 ramp-8 = " "
 ramp-9 = " "
 ramp-font = 7
-ramp-foreground = ${color.ALTCYAN}
+ramp-foreground = #F8506D
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
@@ -102,34 +104,34 @@ format-font = 2
 label-monitor = %name%
 
 
-label-focused = (%name%)
-label-focused-foreground = ${color.BLUE}
-label-focused-background = ${color.BACKGROUND}
-label-focused-underline = ${color.BLUE}
+label-focused = [%name%]
+label-focused-foreground = #FA3C82
+label-focused-background = #0C1018
+label-focused-underline = #FA3C82
 label-focused-padding = 0
 
 label-occupied = %name%
-label-occupied-foreground = ${color.GREEN}
-label-occupied-background = ${color.BACKGROUND}
-label-occupied-underline = ${color.GREEN}
+label-occupied-foreground = #87001C
+label-occupied-background = #0C1018
+label-occupied-underline = #87001C
 label-occupied-padding = 0
 
 label-urgent = %name%
 label-urgent-foreground = ${color.RED}
-label-urgent-background = ${color.BACKGROUND}
+label-urgent-background = #0C1018
 label-urgent-underline = ${color.RED}
 label-urgent-padding = 0
 
 label-empty = %name%
 label-empty-foreground = ${color.FOREGROUND}
-label-empty-background = ${color.BACKGROUND}
+label-empty-background = #0C1018
 label-empty-padding = 0
 
 ; Separator in between workspaces
 label-separator = " ◆ "
 label-separator-padding = 0
-label-separator-foreground = ${color.ALTBLACK}
-label-separator-background = ${color.BACKGROUND}
+label-separator-foreground = #F06576
+label-separator-background = #0C1018
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
@@ -137,7 +139,7 @@ label-separator-background = ${color.BACKGROUND}
 type = internal/bspwm
 
 format = <label-mode>
-format-background = ${color.BACKGROUND}
+format-background = #0C1018
 format-foreground = ${color.ALTRED}
 format-padding = 1
 format-font = 4
@@ -166,13 +168,13 @@ time-alt = %A, %d %B %Y
 format = <label>
 format-prefix = " "
 format-prefix-font = 3
-format-prefix-foreground = ${color.ALTMAGENTA}
-format-prefix-background = ${color.BACKGROUND}
+format-prefix-foreground = #ff0000
+format-prefix-background = #0C1018
 
 label = %time%
 label-font = 4
-label-foreground = ${color.ALTMAGENTA}
-label-background = ${color.BACKGROUND}
+label-foreground = #ff0000
+label-background = #0C1018
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
@@ -188,24 +190,23 @@ unknown-as-up = true
 format-connected = <label-connected>
 format-connected-prefix = " "
 format-connected-prefix-font = 3
-format-connected-prefix-foreground = #C269BC
-format-connected-prefix-background = ${color.BACKGROUND}
+format-connected-prefix-foreground = #FB6396
+format-connected-prefix-background = #0C1018
 
 format-disconnected = <label-disconnected>
 format-disconnected-prefix = " "
 format-disconnected-prefix-font = 3
-format-disconnected-prefix-foreground = #C269BC
-format-disconnected-prefix-background = ${color.BACKGROUND}
+format-disconnected-prefix-foreground = #FB6396
+format-disconnected-prefix-background = #0C1018
 
 ; label-connected = "%{A1:sh ~/.config/bspwm/rofi/bin/network &:}  %downspeed%   %upspeed%%{A}"
 label-connected = "%{A1:sh ~/.config/bspwm/rofi/bin/network &:} %downspeed% ◆  %upspeed%%{A}"
-
-label-connected-background = ${color.BACKGROUND}
-label-connected-foreground =  #FB6396
+label-connected-background = #0C1018
+label-connected-foreground = #FB6396
 
 label-disconnected = "%{A1:sh ~/.config/bspwm/rofi/bin/network &:}Offline%{A}"
-label-disconnected-background = ${color.BACKGROUND}
-label-disconnected-foreground =  #FB6396
+label-disconnected-background = #0C1018
+label-disconnected-foreground = #FB6396
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
@@ -222,22 +223,22 @@ accumulate-stats = true
 unknown-as-up = true
 
 format-connected = <ramp-signal><label-connected>
-format-connected-background = ${color.BACKGROUND}
+format-connected-background = #0C1018
 
 
 format-disconnected = <label-disconnected>
-format-disconnected-background = ${color.BACKGROUND}
+format-disconnected-background = #0C1018
 format-disconnected-prefix = " "
 format-disconnected-prefix-font = 7
-format-disconnected-prefix-foreground = #C269BC
+format-disconnected-prefix-foreground = #FB6396
 
 label-connected = "%{A1:nmd &:} %essid%%{A}"
 label-connected-foreground = #FB6396
-label-connected-background = ${color.BACKGROUND}
+label-connected-background = #0C1018
 
-label-disconnected = "%{A1:nmd &:}dis%{A}"
+label-disconnected = "%{A1:nmd &:} dis%{A}"
 label-disconnected-foreground = #FB6396
-label-disconnected-background = ${color.BACKGROUND}
+label-disconnected-background = #0C1018
 
 ramp-signal-0 = 
 ramp-signal-1 = 
@@ -245,8 +246,8 @@ ramp-signal-2 = 
 ramp-signal-3 = 
 ramp-signal-4 = 
 ramp-signal-font = 3
-ramp-signal-foreground = #C269BC
-ramp-signal-background = ${color.BACKGROUND}
+ramp-signal-foreground = #FB6396
+ramp-signal-background = #0C1018
 
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
@@ -258,21 +259,24 @@ blacklist-0 = num lock
 label-layout = %layout%
 label-layout-foreground = ${colors.primary}
 label-layout-font = 4
+label-layout-background = #0C1018
 
-label-indicator-padding = 2
-label-indicator-margin = 1
+# label-indicator-padding = 2
+# label-indicator-margin = 1
 label-indicator-foreground = ${colors.background}
-label-indicator-background = ${colors.secondary}
+label-indicator-background = #0C1018
+label-indicator-font = 4
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
 [module/sysmenu]
 type = custom/text
 
+; content = ""
 content = ""
 content-font = 5
 content-foreground = ${color.RED}
-content-background = ${color.BACKGROUND}
+content-background = #0C1018
 content-padding = 0
 
 click-left = ~/.config/bspwm/rofi/bin/powermenu
@@ -280,7 +284,7 @@ click-left = ~/.config/bspwm/rofi/bin/powermenu
 
 [module/notification-github]
 type = custom/script
-exec = ~/.config/bspwm/themes/\ Amarena/polybar/scripts/notification-github.sh
+exec = ~/.config/bspwm/themes/Red\ Jungles/polybar/scripts/notification-github.sh
 interval = 60
 label-background = ${color.BGL}
 click-left = google-chrome-stable --newtab https://github.com/notifications
@@ -293,12 +297,12 @@ type = custom/text
 ; content = ""
 ; content = ""
 content = ""
-content-font = 5
+content-font = 4
 
 ;content-font = 3
-content-foreground = ${color.GREEN}
+content-foreground = #F8506D
 content-padding = 0
-content-background = ${color.BACKGROUND}
+content-background = #0C1018
 click-left = ~/.config/bspwm/rofi/bin/launcher
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
@@ -306,12 +310,11 @@ click-left = ~/.config/bspwm/rofi/bin/launcher
 [module/xdomenu]
 type = custom/text
 interval = 1
-
 content = ""
-content-font = 5
-content-foreground = ${color.GREEN}
+content-font = 4
+content-foreground = #F8506D
+content-background = #0C1018
 content-padding = 0
-content-background = ${color.BACKGROUND}
 click-left = jgmenu_run
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
@@ -323,7 +326,7 @@ type = custom/text
 content = ""
 content-font = 5
 content-foreground = ${color.RED}
-content-background = ${color.BACKGROUND}
+content-background = #0C1018
 content-padding = 0
 
 click-left = ~/.config/bspwm/rofi/bin/themes
