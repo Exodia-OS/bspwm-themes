@@ -103,7 +103,7 @@ content-padding = 1
 
 [module/LD]
 type = custom/text
-content = "%{T5}"
+content = "%{T10}"
 content-background = ${color.bar-background}
 content-foreground = #FDFBF9
 
@@ -117,7 +117,7 @@ content-foreground = #FDFBF9
 type = custom/text
 
 ;content = "%{T5}█%{T-}"
-content = "%{T5}"
+content = "%{T10}"
 
 content-background = ${color.background}
 content-foreground = #FDFBF9

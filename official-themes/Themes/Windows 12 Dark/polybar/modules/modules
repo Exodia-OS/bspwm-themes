@@ -195,7 +195,7 @@ type = custom/text
 ; content = ""
 content = ""
 content-font = 5
-content-foreground = #FDFBF9
+content-foreground = #CF006F
 content-padding = 0
 
 click-left = ~/.config/bspwm/rofi/bin/powermenu
@@ -217,7 +217,7 @@ type = custom/text
 
 content = ""
 content-font = 5
-content-foreground = #FDFBF9
+content-foreground = #CF006F
 content-padding = 0
 
 click-left  = ~/.config/bspwm/themes/Windows\ 12\ Dark/polybar/scripts/launcher

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-THEME="$HOME/.config/bspwm/themes/Windows 12/polybar/rofi/launcher.rasi"
+THEME="$HOME/.config/bspwm/themes/Windows 12 Dark/polybar/rofi/launcher.rasi"
 
 rofi \
 	-show drun \
