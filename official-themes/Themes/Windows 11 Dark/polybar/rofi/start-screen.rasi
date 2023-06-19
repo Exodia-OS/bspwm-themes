@@ -59,7 +59,7 @@
 	expand: false;
 	padding: 100px 10px 10px 10px;
 	content: "Thunderbird";
-	background-image: url("~/.config/bspwm/themes/Windows 12 Dark/polybar/rofi/imgs/email.png", both);
+	background-image: url("~/.config/bspwm/themes/Windows 11/polybar/rofi/imgs/email.png", both);
 	background-color: #3a9ec8;
 	action: "google-chrome-stable https://mail.google.com/";
 }
@@ -68,7 +68,7 @@
 	expand: false;
 	padding: 100px 10px 10px 10px;
 	content: "Firefox";
-	background-image: url("~/.config/bspwm/themes/Windows 12 Dark/polybar/rofi/imgs/firefox.png", both);
+	background-image: url("~/.config/bspwm/themes/Windows 11/polybar/rofi/imgs/firefox.png", both);
 	background-color: #ea8600;
 	action: "google-chrome-stable";
 }
@@ -86,7 +86,7 @@
 #button-tile-small-steam {
 	padding: 100px 10px 10px 10px;
 	content: "Steam";
-	background-image: url("~/.config/bspwm/themes/Windows 12 Dark/polybar/rofi/imgs/steam.png", both);
+	background-image: url("~/.config/bspwm/themes/Windows 11/polybar/rofi/imgs/steam.png", both);
 	background-color: #0c4076;
 	action: "google-chrome-stable https://store.steampowered.com/";
 }
@@ -94,7 +94,7 @@
 #button-tile-small-discord {
 	padding: 100px 10px 10px 10px;
 	content: "Discord";
-	background-image: url("~/.config/bspwm/themes/Windows 12 Dark/polybar/rofi/imgs/discord.png", both);
+	background-image: url("~/.config/bspwm/themes/Windows 11/polybar/rofi/imgs/discord.png", both);
 	background-color: #5865F2;
 	action: "discord";
 }
@@ -103,7 +103,7 @@
 	expand: false;
 	padding: 100px 10px 10px 10px;
 	content: "MPV";
-	background-image: url("~/.config/bspwm/themes/Windows 12 Dark/polybar/rofi/imgs/mpv.png", both);
+	background-image: url("~/.config/bspwm/themes/Windows 11/polybar/rofi/imgs/mpv.png", both);
 	background-color: #672168;
 	action: "kb-custom-5";
 }
@@ -122,7 +122,7 @@
 #button-tile-small-code {
 	padding: 100px 10px 10px 10px;
 	content: "Code";
-	background-image: url("~/.config/bspwm/themes/Windows 12 Dark/polybar/rofi/imgs/code.png", both);
+	background-image: url("~/.config/bspwm/themes/Windows 11/polybar/rofi/imgs/code.png", both);
 	background-color: @selected-normal-background;
 	action: "code";
 }
@@ -130,7 +130,7 @@
 #button-tile-small-terminal {
 	padding: 100px 10px 10px 10px;
 	content: "Terminal";
-	background-image: url("~/.config/bspwm/themes/Windows 12 Dark/polybar/rofi/imgs/terminal.png", both);
+	background-image: url("~/.config/bspwm/themes/Windows 11/polybar/rofi/imgs/terminal.png", both);
 	background-color: @urgent-background;
 	action: "bspterm -float";
 }
