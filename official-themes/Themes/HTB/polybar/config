@@ -79,7 +79,7 @@ font-9 = "Iosevka:style=bold:size=15;4"
 
 modules-left   = space xdomenu space pip space bspwm space pip space notification-github space pip space chrome space whatsapp space VirtualBox space discord space music space nvim space PowerShell space MS_VisualStudioCode
 modules-center = space space pipL mod pipR
-modules-right  = xkeyboard sep memory space battery space date space sysmenu space
+modules-right  = xkeyboard sep battery space filesystem space date space sysmenu space
  
 separator =
 spacing = 0
@@ -326,7 +326,7 @@ font-9 = "Iosevka:style=bold:size=15;4"
 
 modules-left   = space weather
 modules-center = 
-modules-right  = empty info-cava empty space cpu cpuTemp filesystem space pulse-mic volume backlight
+modules-right  = empty info-cava empty space cpu cpuTemp memory space pulse-mic volume backlight
  
 separator =
 spacing = 0

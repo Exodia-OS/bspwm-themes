@@ -99,12 +99,14 @@ interval = 30
 fixed-values = true
 
 format-mounted = <label-mounted>
-format-mounted-prefix = "| "
+format-mounted-prefix = " "
+format-mounted-prefix-font = 5
 format-mounted-prefix-foreground = ${color.BACKGROUND}
 format-mounted-prefix-background = ${color.GREEN}
 
 format-unmounted = <label-unmounted>
-format-unmounted-prefix = "| "
+format-unmounted-prefix = " "
+format-unmounted-prefix-font = 5
 format-unmounted-prefix-foreground = ${color.BACKGROUND}
 format-unmounted-prefix-background = ${color.GREEN}
 
@@ -132,7 +134,7 @@ type = custom/script
 exec = free -g | sed -n 's/^Mem:\s\+[0-9]\+\s\+\([0-9]\+\)\s.\+/\1/p'
 
 format = <label>
-format-prefix = " " 
+format-prefix = "| " 
 format-prefix-font = 3
 
 label = "%{A1:alacritty --config-file ~/.config/bspwm/alacritty/alacritty.yml -e htop &:}%output%GB%{A}"
