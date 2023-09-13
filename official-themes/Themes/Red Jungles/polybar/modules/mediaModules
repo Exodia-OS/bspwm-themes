@@ -112,7 +112,7 @@ icon-next-foreground = #ff0000
 
 [module/info-cava]
 type = custom/script
-exec =  ~/.config/bspwm/themes/Red\\ Jungles/polybar/scripts/cava
+exec =  ~/.config/bspwm/themes/Red\\ Jungles/polybar/scripts/cava -c average -f 60
 
 format = <label>
 label = %output%
