@@ -1,0 +1,33 @@
+! ------------------------------------
+! 
+!  Kali color scheme
+!
+!  @author      : 00xWolf
+!    GitHub    : @mmsaeed509
+!    Developer : Mahmoud Mohamed
+!  﫥  Copyright : Exodia OS
+!
+! ------------------------------------
+
+
+*background:  #1e222a
+*foreground:  #c8ccd4
+*cursorColor: #abb2bf
+
+*color0:  #251F2E
+*color1:  #D0171F
+*color2:  #5AB2A3
+*color3:  #F19B49
+*color4:  #3979EB
+*color5:  #9555B2
+*color6:  #4CA9E2
+*color7:  #E1DEE2
+
+*color8:  #187B81
+*color9:  #E00001
+*color10: #43C8B0
+*color11: #F98820
+*color12: #2C7EFB
+*color13: #952DC1
+*color14: #0C9EF3
+*color15: #F9F7FB
