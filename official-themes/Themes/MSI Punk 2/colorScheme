@@ -1,0 +1,31 @@
+! ------------------------------------
+! 
+!  MSI Punk 2 color scheme
+!
+!  @author      : 00xWolf
+!    GitHub    : @mmsaeed509
+!    Developer : Mahmoud Mohamed
+!  﫥  Copyright : Exodia OS
+!
+! ------------------------------------
+
+*background:	#010011
+*foreground:	#95CEEA
+
+*color0:	#010011
+*color1:	#911472
+*color2:	#1D209A
+*color3:	#583CBE
+*color4:	#2431D7
+*color5:	#2B57E2
+*color6:	#BD34C5
+*color7:	#95CEEA
+
+*color8:	#6890A3
+*color9:	#911472
+*color10:	#1D209A
+*color11:	#583CBE
+*color12:	#2431D7
+*color13:	#2B57E2
+*color14:	#BD34C5
+*color15:	#95CEEA

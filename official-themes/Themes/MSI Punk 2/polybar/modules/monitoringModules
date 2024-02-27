@@ -119,7 +119,7 @@ label-unmounted-background = ${color.cyan}
 
 [module/cpuTemp]
 type = custom/script
-exec = ~/.config/bspwm/themes/MSI\\ Punk/polybar/scripts/heatSensors
+exec = ~/.config/bspwm/themes/MSI\\ Punk\\ 2/polybar/scripts/heatSensors
 interval = 1
 click-left = xsensors
 format-foreground = ${color.BACKGROUND}
@@ -142,7 +142,7 @@ format-prefix-foreground = #d19a66
 
 [module/updates-pacman]
 type = custom/script
-exec = ~/.config/bspwm/themes/MSI\\ Punk/polybar/scripts/updates-pacman.sh
+exec = ~/.config/bspwm/themes/MSI\\ Punk\\ 2/polybar/scripts/updates-pacman.sh
 interval = 180
 format = <label>
 

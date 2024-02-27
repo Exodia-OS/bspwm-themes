@@ -9,25 +9,25 @@
 !
 ! ------------------------------------
 
-*background:  #1A1B26
-*foreground:  #D4BFFF
-*cursorColor: #abb2bf
+*background:  #95074B
+*foreground:  #D1C3F6
+*cursorColor: #D1C3F6
 
-*color0:  #171421
-*color1:  #E66D76
-*color2:  #5EDEA3
-*color3:  #EFAB73
-*color4:  #73A3DE
-*color5:  #D06FE8
-*color6:  #75DBEB
-*color7:  #7a7e85
+*color0:  #95074B
+*color1:  #D468D1
+*color2:  #1E8CFE
+*color3:  #2D8DFF
+*color4:  #5091FF
+*color5:  #7094FF
+*color6:  #8E96FF
+*color7:  #D1C3F6
 
-*color8:  #6E6C72
-*color9:  #EB867C
-*color10: #72F0A8
-*color11: #F3D175
-*color12: #72A9ED
-*color13: #E26FEF
-*color14: #76DBEB
-*color15: #FFFFFF
+*color8:  #9288AC
+*color9:  #D468D1
+*color10: #1E8CFE
+*color11: #2D8DFF
+*color12: #5091FF
+*color13: #7094FF
+*color14: #8E96FF
+*color15: #D1C3F6
 

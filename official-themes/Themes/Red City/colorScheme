@@ -10,29 +10,29 @@
 ! ------------------------------------
 
 
-*background: #0c1018
-*foreground: #f1c4c0
+*background: #0C0A0C
+*foreground: #C29FA5
 
-*color0:  #20242C
-*color8:  #a88986
+*color0:  #0C0A0C
+*color8:  #876F73
 
-*color1:  #F8506D
-*color9:  #F8506D
+*color1:  #5C3B42
+*color9:  #5C3B42
 
-*color2:  #F06576
-*color10: #F06576
+*color2:  #6C3B44
+*color10: #6C3B44
 
-*color3:  #DD4157
-*color11: #DD4157
+*color3:  #384A4B
+*color11: #384A4B
 
-*color4:  #FD4955
-*color12: #FD4955
+*color4:  #71464F
+*color12: #71464F
 
-*color5:  #E9698E
-*color13: #E9698E
+*color5:  #9D3748
+*color13: #9D3748
 
-*color6:  #EA7288
-*color14: #EA7288
+*color6:  #B6334A
+*color14: #B6334A
 
-*color7:  #782831
-*color15: #782831
+*color7:  #C29FA5
+*color15: #C29FA5

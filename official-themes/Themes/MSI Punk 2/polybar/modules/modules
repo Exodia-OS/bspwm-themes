@@ -319,7 +319,7 @@ click-left = ~/.config/bspwm/rofi/bin/powermenu
 
 [module/notification-github]
 type = custom/script
-exec = ~/.config/bspwm/themes/MSI\\ Punk/polybar/scripts/notification-github.sh
+exec = ~/.config/bspwm/themes/MSI\\ Punk\\ 2/polybar/scripts/notification-github.sh
 interval = 60
 label-foreground = #0ABDC6
 click-left = brave --newtab https://github.com/notifications
@@ -366,7 +366,7 @@ click-left = ~/.config/bspwm/rofi/bin/themes
 
 [module/weather]
 type = custom/script
-exec = ~/.config/bspwm/themes/MSI\\ Punk/polybar/scripts/weather
+exec = ~/.config/bspwm/themes/MSI\\ Punk\\ 2/polybar/scripts/weather
 interval = 1
 click-left = brave http://api.openweathermap.org
 

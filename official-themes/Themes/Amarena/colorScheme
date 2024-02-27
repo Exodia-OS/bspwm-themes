@@ -9,25 +9,49 @@
 !
 ! ------------------------------------
 
-*background:	#1A2026
-*foreground:	#FFFFFF
+*background:	#12191B
+*foreground:	#B8C0BD
 
-*cursorColor:	#FFFFFF
+*cursorColor:	#B8C0BD
 
-*color0:	#242D35
-*color1:	#FB6396
-*color2:	#94CF95
-*color3:	#F692B2
-*color4:	#6EC1D6
-*color5:	#CD84C8
-*color6:	#7FE4D2
-*color7:	#FFFFFF
+*color0:	#12191B
+*color1:	#586964
+*color2:	#687770
+*color3:	#74837C
+*color4:	#7B8B85
+*color5:	#81908B
+*color6:	#82918C
+*color7:	#B8C0BD
 
-*color8:	#526170
-*color9:	#F92D72
-*color10:	#6CCB6E
-*color11:	#F26190
-*color12:	#4CB9D6
-*color13:	#C269BC
-*color14:	#58D6BF
-*color15:	#F4F5F2
+*color8:	#808684
+*color9:	#586964
+*color10:	#687770
+*color11:	#74837C
+*color12:	#7B8B85
+*color13:	#81908B
+*color14:	#82918C
+*color15:	#B8C0BD
+
+
+!*background:	#1A2026
+!*foreground:	#FFFFFF
+!
+!*cursorColor:	#FFFFFF
+!
+!*color0:	#242D35
+!*color1:	#FB6396
+!*color2:	#94CF95
+!*color3:	#F692B2
+!*color4:	#6EC1D6
+!*color5:	#CD84C8
+!*color6:	#7FE4D2
+!*color7:	#FFFFFF
+!
+!*color8:	#526170
+!*color9:	#F92D72
+!*color10:	#6CCB6E
+!*color11:	#F26190
+!*color12:	#4CB9D6
+!*color13:	#C269BC
+!*color14:	#58D6BF
+!*color15:	#F4F5F2
